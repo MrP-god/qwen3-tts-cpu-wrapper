@@ -1,0 +1,18 @@
+[project]
+name = "qwen3-tts-cpu-wrapper"
+version = "0.1.0"
+description = "A CPU-friendly FastAPI wrapper (Verber) and Web UI for Qwen3-TTS."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "qwen-tts>=0.1.0",
+    "torch>=2.2.0",
+    "torchaudio>=2.2.0",
+    "soundfile>=0.12.1",
+    "numpy>=1.26.0",
+    "python-multipart>=0.0.9",
+    "psutil>=5.9.0",
+    "gradio>=4.0.0"
+]
